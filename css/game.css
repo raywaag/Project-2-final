@@ -1,0 +1,21 @@
+.background    { background: black;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #70D5DC; }
+.refresh         { background: orange; }
+.wall          { background: url("https://images.pexels.com/photos/313563/sand-pattern-wave-texture-313563.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb"); }
+.coin          { background: #89C000  ; }
+
+.actor  { position: absolute;  }
+.player { background: white; }
+
+.lost .player { background: red; }
+.won .player { box-shadow: -4px -7px 8px yellow, 4px -7px 8px yellow; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
